@@ -1,0 +1,35 @@
+.auth-card {
+  text-align: center;
+  padding: 0rem 4rem;
+}
+.auth-image {
+  width: 17rem;
+  height: auto;
+}
+
+.button-block {
+  margin-top: 3rem !important;
+}
+.text-block {
+  margin-top: 3rem !important;
+}
+
+@media only screen and (max-width: 728px) {
+  .auth-card {
+    text-align: center;
+    padding: 2rem 1rem;
+    border-right: 0rem !important;
+  }
+
+  .auth-image {
+    width: 10rem;
+    height: auto;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .auth-card {
+    text-align: center;
+    padding: 2rem 1rem;
+    border-right: 0rem !important;
+  }
+}

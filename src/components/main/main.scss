@@ -1,0 +1,23 @@
+.main-title {
+  text-align: center;
+  margin-top: 2rem;
+}
+.info {
+  padding: 2rem 7rem 4rem 7rem;
+}
+.auth {
+  padding: 4rem 7rem;
+}
+
+.main {
+  width: 100%;
+}
+
+@media only screen and (max-width: 728px) {
+  .info {
+    padding: 2rem 1rem 4rem 1rem;
+  }
+  .auth {
+    padding: 4rem 1rem;
+  }
+}

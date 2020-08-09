@@ -1,0 +1,24 @@
+@import "../../../static/scss/variables.scss";
+.info-card {
+  text-align: center;
+  font-size: $text-title;
+}
+
+.info-image {
+  width: 17rem;
+  height: auto;
+}
+
+.info-count-block {
+  margin-top: 1rem;
+}
+.info-image-block {
+  margin-top: 1.5rem;
+}
+
+@media only screen and (max-width: 728px) {
+  .info-image {
+    width: 10rem;
+    height: auto;
+  }
+}

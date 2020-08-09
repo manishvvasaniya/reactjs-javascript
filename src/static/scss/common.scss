@@ -1,0 +1,29 @@
+@import "./variables.scss";
+
+.text-sm {
+  font-size: $text-sm;
+}
+
+.text-md {
+  font-size: $text-md;
+}
+
+.text-w-500 {
+  font-weight: 500;
+}
+
+.text-title {
+  font-size: $text-title;
+}
+
+.color-primary {
+  color: $primary;
+}
+
+.bg-light-primary {
+  background-color: $light-primary-color;
+}
+
+.border-right {
+  border-right: 1px solid $divider-color;
+}
